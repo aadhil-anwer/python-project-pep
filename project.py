@@ -41,7 +41,7 @@ class NQueensVisualizer:
                 if color == "black":
                     self.canvas.create_text(c*40 + 20, r*40 + 20, text='Q', fill='red')
         self.canvas.update()
-        time.sleep(0.5)
+        time.sleep(0.0001)
 
     def backtrack(self, r):
         if r == self.n:
